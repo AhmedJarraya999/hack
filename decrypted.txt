@@ -1,0 +1,27 @@
+Hello there, fellow escape artists!
+
+It seems like you've stumbled upon some important files that could lead you to freedom.
+
+However, with multiple files in front of you, the task of finding the right one may seem daunting.
+
+But fear not, each file has been given a unique digital fingerprint, created using a clever technique used by security experts and hackers alike.
+
+These fingerprints act as digital locks, guarding the files from anyone who doesn't have the key.
+
+Remember, once you figure out the correct file pointing to your freedom, make sure to use it and fix it inside Kubernetes in order to reach the next level.
+
+Oh, and one more thing, If you find yourself getting a forbidden message during your daring escape, don't panic! It's all part of the challenge. 
+And while you're at it, remember to keep an eye out for valuable information hidden away in namespaces. Who knows, maybe a colorful value tucked away in a namespace could hold the key to your next move. 
+
+Stay sharp and think outside the box!
+
+Good luck on your quest for freedom.
+ 
+
+
+
+
+
+
+
+
