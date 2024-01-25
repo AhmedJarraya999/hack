@@ -1,0 +1,24 @@
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata:
+  name: blue-role
+  namespace: blue
+rules:
+- apiGroups: ["*"]
+  resources: ["pods", "services"]
+  verbs: ["get", "list", "watch", "create", "update", "patch", "delete"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata:
+  name: blue-rolebinding
+  namespace: blue
+subjects:
+- kind: User
+  name: bhjrou5@gmail.com
+  apiGroup: rbac.authorization.k8s.io
+roleRef:
+  kind: Role
+  name: blue-role
+  apiGroup: rbac.authorization.k8s.io
+ 

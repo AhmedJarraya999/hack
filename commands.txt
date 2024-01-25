@@ -1,0 +1,53 @@
+cryptage:
+echo "Your paragraph here" | openssl enc -aes-256-cbc -a
+echo "encrypted paragraph here" | openssl enc -aes-256-cbc
+decyptage key: z9ay72bp
+
+
+hashage:
+
+md5sum aaa.yml
+hashingkey:  8bcf5823be869db65fda85b37da1f3fb
+
+
+
+
+
+commands docker:
+docker build -t fake .
+docker tag fake  hackathongdsc/clue:v2
+docker tag hackim  hackathongdsc/customweb:v2
+docker push hackathongdsc/clue:v2
+docker push hackathongdsc/customweb:v2
+
+
+
+apply quota:
+
+kubectl  apply -f quota.yml -n yellow
+
+
+
+
+namespaces:
+
+White
+Yellow
+Blue
+Red
+Green
+Black
+Brown
+Azure
+Silver
+Purple
+Navy-blue
+Grey
+Orange
+Maroon
+Charcoal
+Aquamarine
+Coral
+Magenta
+Olive
+Cyan

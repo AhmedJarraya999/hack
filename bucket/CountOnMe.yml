@@ -1,0 +1,24 @@
+apiVersion: v1
+kind: pod
+metadata:
+  creationTimestamp: null
+  name: GDSC-pod
+spec:
+  containers:
+  - name: Myapp-container
+    image: hackathongdsc/customised-app
+    ports:
+    - containerPort: Navigate closely through the alleys
+---
+apiVersion: v1
+kind: service
+metadata:
+  name: GDSC-service
+spec:
+  selector:
+    app: app-selector
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: Navigate closely through the alleys 
+  type: ClusterIP
